@@ -23,16 +23,19 @@
 
 <!-- NAVBAR -->
 <header class="sticky-top bg-dark py-3 border-bottom border-light-subtle">
-  <nav class="navbar navbar-expand-lg navbar-dark container">
-    <a class="navbar-brand fw-bold" href="#">Thebazile <br>Elizabeth Nundu</br></a>
+  <nav class="navbar navbar-expand-lg navbar-dark container-fluid px-4">
+    <a class="navbar-brand fw-bold" href="#">Elizabeth Nundu <br>(Thebazile)</br></a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navMenu">
-      <ul class="navbar-nav gap-4">
-        <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="../index.html#hero">Home</a></li>
-        <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="../index.html#info">What I Do</a></li>
-        <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="./contact.html">Contacts</a></li>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <!-- Centered Nav Links -->
+      <ul class="navbar-nav mx-auto gap-4 text-center">
+        <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="#info">What I Do</a></li>
+        <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="./pages/contact.html">Contacts</a></li>
       </ul>
     </div>
   </nav>
@@ -41,8 +44,8 @@
 <section class="d-flex flex-column justify-content-center align-items-center contact-sec">
     <div class="container">
         <!-- Main Content -->
-         <div class="cta-img text-center contact-img">
-            <img src="../assets/thebazile-contact.png" alt="image of a contact me QR code" class="img-fluid p-5">
+         <div class="cta-img text-center contact-img container-fluid px-4">
+            <img src="../assets/thebazile-contact.png" alt="image of a contact me QR code" class="img-fluid">
         </div>
 
         <hr>

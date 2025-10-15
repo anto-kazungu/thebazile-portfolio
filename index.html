@@ -22,13 +22,16 @@
 
 <!-- NAVBAR -->
 <header class="sticky-top bg-dark py-3 border-bottom border-light-subtle">
-  <nav class="navbar navbar-expand-lg navbar-dark container">
+  <nav class="navbar navbar-expand-lg navbar-dark container-fluid px-4">
     <a class="navbar-brand fw-bold" href="#">Elizabeth Nundu <br>(Thebazile)</br></a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navMenu">
-      <ul class="navbar-nav gap-4">
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <!-- Centered Nav Links -->
+      <ul class="navbar-nav mx-auto gap-4 text-center">
         <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="#hero">Home</a></li>
         <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="#info">What I Do</a></li>
         <li class="nav-item"><a class="nav-link text-uppercase fw-semibold" href="./pages/contact.html">Contacts</a></li>
@@ -39,36 +42,50 @@
 
 <!-- HERO -->
 <section class="hero fade-up container-fluid py-5" id="hero">
-  <div class="row align-items-center">
-    <div class="col-lg-6 text-white text-center text-lg-start">
-      <h1 class="fw-bold display-5">Rooted in Nature.<br><span>Wired for Change.</span></h1>
-      <p class="lead">I grow communities, Digitize futures, and Fight for a Greener World.</p>
-      <a href="#mid" class="btn btn-light px-4 py-2 fw-semibold">About Me</a>
+  <div class="row align-items-center text-center text-lg-start">
+
+    <!-- TEXT SECTION -->
+    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-white mb-4 mb-lg-0 p-5">
+      <h1 class="fw-bold display-5">
+        Rooted in Nature.<br><span>Wired for Change.</span>
+      </h1>
+      <p class="lead">
+        I grow communities, Digitize futures, and Fight for a Greener World.
+      </p>
+      <a href="#mid" class="btn btn-light px-4 py-2 fw-semibold mt-3">About Me</a>
     </div>
-    <div class="col-lg-6 text-center mt-4 mt-lg-0 img-div">
-      <img src="./assets/hero-profile-pic-v2.png" class="img-fluid rounded-3" alt="elizabeth picture">
+
+    <!-- IMAGE SECTION -->
+    <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
+      <img src="./assets/hero-profile-pic-v2.png" class="img-fluid rounded-3" alt="Elizabeth picture">
     </div>
+
   </div>
 </section>
 
+
 <!-- MID -->
 <section class="mid fade-up container-fluid py-5" id="mid">
-  <div class="row align-items-center">
+  <div class="row align-items-center text-center text-lg-start">
+    
+    <!-- IMAGE SECTION -->
     <div class="col-lg-6 d-flex justify-content-center mb-4 mb-lg-0">
       <div class="mid-right">
         <img src="./assets/illustration-aboutme-2.1.png" alt="image illustrating earth & humans" class="img-fluid">
       </div>
     </div>
-    <div class="col-lg-6">
+
+    <!-- TEXT SECTION -->
+    <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
       <h2 class="fw-bold mb-3">Living a Life that Loves the Earth and Lifts Others.</h2>
-      <p class="lh-lg text-secondary">
+      <p class="lh-lg text-secondary p-5">
         I’m a curious mind shaped by Economics and Psychology at Kenyatta University, where I learned how systems work — and more importantly, 
         how people think and thrive within them. My journey began in the green heart of Ngong Forest, where I discovered the power of environmental action. 
         That passion soon branched out into tech and community through programs like CSTEMX and CTK Youth, where I’ve worked to bridge the gap between creativity, technology, and opportunity. 
         I thrive at the intersection of environmental sustainability, tech innovation, and creative expression — the tools I use to empower young people and build stronger, more conscious communities. 
         For me, it’s not just about projects — it’s about purpose.
       </p>
-      <a href="#info" class="btn btn-dark px-4 py-2 fw-semibold">What I Do</a>
+      <a href="#info" class="btn btn-dark px-4 py-2 fw-semibold mt-3">What I Do</a>
     </div>
   </div>
 </section>

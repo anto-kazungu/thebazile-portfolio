@@ -22,7 +22,6 @@ body {
   background-color: var(--black);
   background: linear-gradient(315deg, var(--black) 50%, #00695c 100%);
   color: var(--white);
-  padding-left: 40px;
 }
 
 .img-div {
@@ -122,8 +121,16 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 20%;
-  margin: auto;
+  width: 50%;              /* wider container */
+  max-width: 400px;        /* prevents it from growing too large */
+  min-width: 250px;        /* keeps it visible even on small screens */
+  margin: 2rem auto;       /* centers it with spacing */
+}
+
+.cta img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;     /* ensures full image is visible */
 }
 
 .cta h2 {
