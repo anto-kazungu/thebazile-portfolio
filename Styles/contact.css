@@ -20,7 +20,7 @@ body {
 section {
   flex: 1; /* Makes the section expand and push footer down */
   background-color: black;
-  background: linear-gradient(135deg, var(--black) 50%, #00695c 100%);
+  background: linear-gradient(135deg, var(--black) 70%, #00695c 100%);
 }
 
 .contact-img {
@@ -42,7 +42,8 @@ section {
 }
 
 .contact-hero {
-  background-color: var(--dark-green);
+  background-color: #00695c;
+  background: linear-gradient(315deg, var(--black) 60%, #00695c 100%);
   color: white;
 }
 .contact-info {
