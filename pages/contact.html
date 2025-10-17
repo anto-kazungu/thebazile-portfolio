@@ -44,24 +44,48 @@
   </nav>
 </header>
 
-<section class="d-flex flex-column justify-content-center align-items-center contact-sec">
-    <div class="container">
-        <!-- Main Content -->
-         <div class="cta-img text-center contact-img container-fluid px-4">
-            <img src="../assets/thebazile-contact.png" alt="image of a contact me QR code" class="img-fluid">
-        </div>
-
-        <hr>
-
-        <div class="text-center m-4 p-5">
-            <h1 class="fw-bold display-6">CAN'T WAIT TO HEAR YOUR GREAT IDEAS</1>
-            <h6 class="fw-bold">CONTACT</h6>
-            <p class="mb-0">+254 728 000 000</p>
-            <p class="mb-0">elizabeth.nundu@gmail.com</p>
-            <p class="mb-0">www.cstemx.com</p>
-        </div>
-    </div>
+<section class="contact-hero text-center py-5">
+  <div class="container px-4">
+    <h1>Can’t wait to hear your ideas</h1>
+    <p>Let’s connect / make something meaningful together</p>
+  </div>
 </section>
+
+<section class="contact-main py-5">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-5">
+        <div class="contact-info p-4">
+          <h5>Contact</h5>
+          <p>+254 728 000 000</p>
+          <p>elizabeth.nundu@gmail.com</p>
+          <p>www.cstemx.com</p>
+          <div class="qr-code mt-4">
+            <img src="../assets/thebazile-contact.png" alt="QR code to connect" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <form class="contact-form p-4 bg-dark">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input id="name" class="form-control bg-grey" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control bg-grey" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-control bg-grey" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark px-4 py-2 fw-semibold mt-3">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- FOOTER -->
 <footer class="bg-dark text-white text-center py-3 small">

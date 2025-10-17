@@ -41,6 +41,21 @@ section {
   object-fit: contain;     /* ensures full image is visible */
 }
 
+.contact-hero {
+  background-color: var(--dark-green);
+  color: white;
+}
+.contact-info {
+  background: rgba(white, 0.05);
+  border-radius: 8px;
+}
+.contact-form {
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
 footer {
   margin-top: auto; /* Ensures footer stays at bottom after content */
 }
